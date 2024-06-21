@@ -1,0 +1,13 @@
+name: 'DemoJSAction'
+description: 'Display message'
+inputs:
+  name-of-you:
+    decription: 'Your name'
+    required: true
+    default: 'Kriti'
+outputs:
+  time:
+    description: 'The time of the message'
+runs:
+  using: 'node 12'
+  main: 'dist/index.js'
