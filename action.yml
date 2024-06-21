@@ -9,5 +9,5 @@ outputs:
   time:
     description: 'The time of the message'
 runs:
-  using: 'node 12'
+  using: 'node12'
   main: 'dist/index.js'
